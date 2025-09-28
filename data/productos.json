@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cera para Peinar de Fijación Fuerte",
+        "descripcion": "Moldea tu cabello con un acabado mate y una fijación que dura todo el día.",
+        "precio": 35000,
+        "imagen": "images/producto_cera.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Aceite para Barba Clásico",
+        "descripcion": "Hidrata y suaviza tu barba con nuestra mezcla de aceites esenciales.",
+        "precio": 45000,
+        "imagen": "images/producto_aceite.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Bálsamo para Crecimiento de Barba",
+        "descripcion": "Estimula el crecimiento y fortalece el vello facial con ingredientes naturales.",
+        "precio": 55000,
+        "imagen": "images/producto_balsamo.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Shampoo Fortificante de Menta",
+        "descripcion": "Limpia y revitaliza tu cuero cabelludo con un toque refrescante de menta.",
+        "precio": 30000,
+        "imagen": "images/producto_shampoo.jpg"
+    }
+]

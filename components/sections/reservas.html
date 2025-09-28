@@ -1,0 +1,23 @@
+<section id="reservas" class="content-section">
+    <h2>Reserva tu Cita</h2>
+    <form id="reservation-form" class="reservation-form">
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="date">Fecha</label>
+            <input type="date" id="date" required>
+        </div>
+        <div class="form-group">
+            <label for="time">Hora</label>
+            <input type="time" id="time" required>
+        </div>
+        <div class="form-group">
+            <label for="barber-selection">Barbero</label>
+            <input type="text" id="barber-selection" readonly>
+        </div>
+        <button type="submit" class="btn-primary">Confirmar Reserva</button>
+        <button type="button" id="clear-selection-btn" class="btn-ghost">Limpiar Selección</button>
+    </form>
+</section>
