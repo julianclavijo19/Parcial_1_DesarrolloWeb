@@ -1,0 +1,46 @@
+#header-container {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#header-container.header-visible {
+    transform: translateY(0);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font: 1.8rem var(--font-heading);
+    transition: opacity 0.3s ease;
+}
+
+#header-container.title-shrunk .logo {
+    opacity: 0;
+}
+
+#header-container nav a {
+    color: var(--white-color);
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+#header-container nav a:hover {
+    color: var(--secondary-color);
+}
+
+#header-container nav #login-link {
+    border-bottom: 1px solid var(--white-color);
+    padding-bottom: 2px;
+}

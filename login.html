@@ -7,23 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <div class="login-container">
         <div class="login-box">
-            <h1>Bienvenido de Nuevo</h1>
+            <h1>Bienvenido</h1>
             <p>Ingresa a tu cuenta para continuar</p>
             <form id="login-form">
                 <div class="input-group">
-                    <label for="email">Correo Electrónico</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" placeholder=" " required>
+                    <label for="email">Correo</label>
+                    <img src="images/icono_login/Correo.png" class="input-icon">
                 </div>
                 <div class="input-group">
                     <input type="password" id="password" name="password" placeholder=" " required>
                     <label for="password">Contraseña</label>
-                    <input type="password" id="password" name="password" required>
+                    <img src="images/icono_login/Contraseña2.png" class="input-icon">
                 </div>
                 <p id="error-message" class="error-message"></p>
                 <button type="submit" class="btn-primary">Iniciar Sesión</button>

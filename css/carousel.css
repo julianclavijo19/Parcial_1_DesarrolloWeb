@@ -1,0 +1,42 @@
+#productos .carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#productos .carousel-container .card-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#productos .carousel-container .card-container::-webkit-scrollbar { display: none; }
+
+#productos .carousel-arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--white-color);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+#productos .carousel-arrow:hover { background-color: rgba(0, 0, 0, 0.8); }
+#productos .left-arrow { left: 0; }
+#productos .right-arrow { right: 0; }
